@@ -70,7 +70,7 @@ Before running the application, ensure the following are installed:
 ## Project Structure
 ```
 financial-control-system/
-|-- backend/
+|-- corporateFinancialControl/
 |   |-- src/
 |   |   |-- main/
 |   |   |   |-- java/com/br/corporateFinancialControl/
@@ -81,7 +81,7 @@ financial-control-system/
 |   |   |   |   |-- config/
 |   |   |   |-- resources/application.properties
 |   |-- pom.xml
-|-- frontend/
+|-- financial-dashboard/
 |   |-- src/
 |   |   |-- components/
 |   |   |-- App.js
