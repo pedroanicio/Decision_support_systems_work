@@ -34,7 +34,7 @@ Before running the application, ensure the following are installed:
 ### Backend:
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/financial-control-system.git
+   git clone https://github.com/pedroanicio/Decision_support_systems_work.git
    cd financial-control-system/backend
    ```
 2. Configure the database connection in `DatabaseConfig.java`:
@@ -43,7 +43,9 @@ Before running the application, ensure the following are installed:
    public static final String USER = "your_username";
    public static final String PASSWORD = "your_password";
    ```
-3. Build and run the backend:
+3. Configure the environment variables in application.properties;
+   
+4. Build and run the backend:
    ```bash
    ./mvnw spring-boot:run
    ```
@@ -72,6 +74,7 @@ financial-control-system/
 |   |-- src/
 |   |   |-- main/
 |   |   |   |-- java/com/br/corporateFinancialControl/
+|   |   |   |   |-- service/
 |   |   |   |   |-- controller/
 |   |   |   |   |-- model/
 |   |   |   |   |-- repository/
@@ -99,14 +102,6 @@ financial-control-system/
 - Implement encryption for sensitive data.
 - Integrate additional visualizations for enhanced reporting.
 
-## License
-This project is licensed under the [MIT License](LICENSE).
 
-## Contributing
-Contributions are welcome! Feel free to fork the repository and submit pull requests.
 
-## Contact
-For questions or feedback, please contact:
-- **Email**: your-email@example.com
-- **GitHub**: [your-username](https://github.com/your-username)
 
