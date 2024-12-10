@@ -15,6 +15,7 @@ public class CategoriaRepository {
         Categoria categoria = null;
         String sql = "SELECT * FROM categorias WHERE id = ?";
 
+        // Conexão fornecida pelo DatabaseConfig
         try (Connection conn = DatabaseConfig.getConnection();
              PreparedStatement stmt = conn.prepareStatement(sql)) {
 
@@ -120,6 +121,5 @@ public class CategoriaRepository {
             throw new RuntimeException("Erro ao deletar a categoria. " + e.getMessage(), e);
         }
     }
-
 
 }
