@@ -78,6 +78,7 @@ financial-control-system/
 |   |   |   |   |-- controller/
 |   |   |   |   |-- model/
 |   |   |   |   |-- repository/
+|   |   |   |   |-- config/
 |   |   |   |-- resources/application.properties
 |   |-- pom.xml
 |-- frontend/
