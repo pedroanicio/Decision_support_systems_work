@@ -35,7 +35,7 @@ Before running the application, ensure the following are installed:
 1. Clone the repository:
    ```bash
    git clone https://github.com/pedroanicio/Decision_support_systems_work.git
-   cd financial-control-system/backend
+   cd corporateFinancialControl
    ```
 2. Configure the database connection in `DatabaseConfig.java`:
    ```java
@@ -53,7 +53,7 @@ Before running the application, ensure the following are installed:
 ### Frontend:
 1. Navigate to the frontend folder:
    ```bash
-   cd ../frontend
+   cd ../financial-dashboard
    ```
 2. Install dependencies:
    ```bash
